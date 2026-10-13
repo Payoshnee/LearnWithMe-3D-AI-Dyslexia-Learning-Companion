@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: dyslexialearn-api
+    runtime: python
+    plan: free
+    region: singapore
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8
+      - key: DATABASE_URL
+        sync: false
+      - key: FRONTEND_ALLOWED_ORIGINS
+        value: https://dyslexia-learn-8aoq.vercel.app
+      - key: OLLAMA_BASE_URL
+        value: https://payoshneejoshi-dyslexialearn.hf.space
+      - key: OLLAMA_API_KEY
+        sync: false
+      - key: OLLAMA_CHAT_MODEL
+        value: qwen2.5vl:3b
+      - key: OLLAMA_EMBEDDING_MODEL
+        value: nomic-embed-text:latest
+      - key: OLLAMA_KEEP_ALIVE
+        value: 10m
+      - key: COMPANION_ENABLED
+        value: "true"
+      - key: TTS_ENGINE
+        value: piper
+      - key: PIPER_BINARY_PATH
+        value: piper
+      - key: PIPER_VOICE_DIR
+        value: tts/voices

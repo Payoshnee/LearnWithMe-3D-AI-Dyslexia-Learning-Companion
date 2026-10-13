@@ -1,0 +1,16 @@
+<svg width="320" height="420" viewBox="0 0 320 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Learning companion fallback</title>
+  <desc id="desc">A friendly simplified learning companion illustration.</desc>
+  <rect width="320" height="420" rx="34" fill="none"/>
+  <ellipse cx="160" cy="368" rx="84" ry="18" fill="#0F766E" opacity="0.14"/>
+  <path d="M102 194C102 155.34 127.52 124 159 124C190.48 124 216 155.34 216 194V272C216 307.346 190.48 336 159 336C127.52 336 102 307.346 102 272V194Z" fill="#D7F3EC" stroke="#0F766E" stroke-width="8"/>
+  <circle cx="159" cy="94" r="58" fill="#FDE68A" stroke="#92400E" stroke-width="8"/>
+  <circle cx="139" cy="88" r="7" fill="#243B53"/>
+  <circle cx="179" cy="88" r="7" fill="#243B53"/>
+  <path d="M137 112C149 123 169 123 181 112" stroke="#243B53" stroke-width="7" stroke-linecap="round"/>
+  <path d="M105 218C74 228 58 250 58 279" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M213 218C244 228 260 250 260 279" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M133 334V370" stroke="#0F766E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M186 334V370" stroke="#0F766E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M123 52C143 29 177 29 197 52" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+</svg>
