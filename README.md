@@ -5,7 +5,6 @@
 **Live Website:** https://learnwithme-eta.vercel.app/  
 **Backend Health:** https://learnwithme-api.onrender.com/health
 
-> **Status:** Deployed working prototype / educational demo. Not a dyslexia diagnostic tool. Some features, including reliable long-term learner progress reporting and multi-device accessibility verification, remain under development.
 
 ## Project Summary
 
@@ -14,6 +13,43 @@ LearnWithMe is a web-based literacy learning companion designed to make early re
 The system splits responsibilities deliberately: **Wendy** guides teaching; **Bob** helps learners practise and reinforce skills. Core lesson correctness is determined by a predictable backend lesson engine rather than allowing a language model to decide right and wrong answers. Open-ended companion conversations can use a remote free-model provider, while selected educational intents are handled through local rules.
 
 **Project highlights:** React/Vite user interface, Three.js 3D characters, FastAPI Python backend, signed-cookie parent accounts, Neon PostgreSQL, and a public Vercel/Render deployment.
+
+## Meet Our 3D Learning Companions
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Wendy — Teaching Buddy
+
+<img src="docs/characters/wendy.png"
+     alt="Wendy, the 3D teaching buddy"
+     width="270" />
+
+**Learn with Wendy**
+
+Wendy is a patient teaching companion who helps children
+learn letters, phonics, blending, word recognition, and reading
+through small, manageable steps.
+
+</td>
+<td align="center" width="50%">
+
+### Bob — Practice Buddy
+
+<img src="docs/characters/bob.png"
+     alt="Bob, the 3D practice buddy"
+     width="270" />
+
+**Practice with Bob**
+
+Bob helps learners build confidence with speaking,
+spelling, word challenges, and encouraging feedback
+at their own pace.
+
+</td>
+</tr>
+</table>
 
 
 ## Visual Experience
